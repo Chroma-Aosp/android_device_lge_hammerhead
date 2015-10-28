@@ -282,7 +282,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.qti.sensors.georv=true \
     ro.qti.sensors.smgr_mag_cal_en=true \
     ro.qti.sensors.step_detector=true \
-    ro.qti.sensors.step_counter=true
+    ro.qti.sensors.step_counter=true \
     ro.qti.sensors.tap=false \
     ro.qti.sensors.facing=false \
     ro.qti.sensors.tilt=false \
@@ -304,8 +304,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.call_ring.multiple=0
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    wifi.interface=wlan0 \
-    wifi.supplicant_scan_interval=15
+    wifi.interface=wlan0
 
 # Enable AAC 5.1 output
 PRODUCT_PROPERTY_OVERRIDES += \
